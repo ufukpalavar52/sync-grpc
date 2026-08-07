@@ -1,8 +1,8 @@
 package model_test
 
 import (
-	"imapsync-user/internal/model"
-	"imapsync-user/pkg/pb/sync"
+	"imapsync-grpc/internal/model"
+	"imapsync-grpc/pkg/pb/sync"
 	"testing"
 )
 

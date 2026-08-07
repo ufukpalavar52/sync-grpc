@@ -2,10 +2,10 @@ package service
 
 import (
 	"fmt"
-	"imapsync-user/config"
-	"imapsync-user/internal/util"
-	"imapsync-user/logger"
-	"imapsync-user/pkg/pb/sync_log"
+	"imapsync-grpc/config"
+	"imapsync-grpc/internal/util"
+	"imapsync-grpc/logger"
+	"imapsync-grpc/pkg/pb/sync_log"
 	"io"
 	"path/filepath"
 	"strings"

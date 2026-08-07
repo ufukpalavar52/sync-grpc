@@ -2,9 +2,9 @@ package repository_test
 
 import (
 	"errors"
-	"imapsync-user/internal/model"
-	"imapsync-user/internal/repository"
-	"imapsync-user/pkg/pb/user"
+	"imapsync-grpc/internal/model"
+	"imapsync-grpc/internal/repository"
+	"imapsync-grpc/pkg/pb/user"
 	"testing"
 
 	sqlmock "github.com/DATA-DOG/go-sqlmock"

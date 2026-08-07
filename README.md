@@ -1,4 +1,4 @@
-# imapsync-user
+# imapsync-grpc
 
 A gRPC service that manages the user accounts, IMAP sync jobs, credential encryption, log
 streaming and statistics behind an IMAP mailbox migration ("imapsync") platform.
@@ -219,7 +219,7 @@ You should see `gRPC server listening at [::]:50051`.
 ### Build
 
 ```bash
-go build -o bin/imapsync-user ./cmd/server
+go build -o bin/imapsync-grpc ./cmd/server
 ```
 
 ### Try it out

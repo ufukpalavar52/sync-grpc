@@ -2,11 +2,11 @@ package service
 
 import (
 	"errors"
-	"imapsync-user/internal/global"
-	"imapsync-user/internal/model"
-	"imapsync-user/internal/repository"
-	"imapsync-user/internal/util"
-	"imapsync-user/pkg/pb/sync"
+	"imapsync-grpc/internal/global"
+	"imapsync-grpc/internal/model"
+	"imapsync-grpc/internal/repository"
+	"imapsync-grpc/internal/util"
+	"imapsync-grpc/pkg/pb/sync"
 	"time"
 
 	"gorm.io/gorm"

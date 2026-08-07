@@ -2,8 +2,8 @@ package repository
 
 import (
 	"errors"
-	"imapsync-user/internal/model"
-	"imapsync-user/pkg/pb/user"
+	"imapsync-grpc/internal/model"
+	"imapsync-grpc/pkg/pb/user"
 
 	"gorm.io/gorm"
 )

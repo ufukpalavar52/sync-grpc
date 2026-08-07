@@ -2,7 +2,7 @@ package repository
 
 import (
 	"errors"
-	"imapsync-user/internal/model"
+	"imapsync-grpc/internal/model"
 
 	"gorm.io/gorm"
 )

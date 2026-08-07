@@ -2,7 +2,7 @@ package util_test
 
 import (
 	"encoding/base64"
-	"imapsync-user/internal/util"
+	"imapsync-grpc/internal/util"
 	"testing"
 )
 

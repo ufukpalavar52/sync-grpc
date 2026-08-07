@@ -2,9 +2,9 @@ package repository
 
 import (
 	"errors"
-	"imapsync-user/internal/model"
-	"imapsync-user/internal/util"
-	"imapsync-user/pkg/pb/sync"
+	"imapsync-grpc/internal/model"
+	"imapsync-grpc/internal/util"
+	"imapsync-grpc/pkg/pb/sync"
 
 	"gorm.io/gorm"
 	"gorm.io/gorm/clause"

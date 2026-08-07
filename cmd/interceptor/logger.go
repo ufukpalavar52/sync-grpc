@@ -2,8 +2,8 @@ package interceptor
 
 import (
 	"context"
-	"imapsync-user/internal/util"
-	"imapsync-user/logger"
+	"imapsync-grpc/internal/util"
+	"imapsync-grpc/logger"
 	"time"
 
 	"google.golang.org/grpc"

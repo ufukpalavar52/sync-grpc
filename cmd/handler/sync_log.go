@@ -1,8 +1,8 @@
 package handler
 
 import (
-	"imapsync-user/internal/service"
-	"imapsync-user/pkg/pb/sync_log"
+	"imapsync-grpc/internal/service"
+	"imapsync-grpc/pkg/pb/sync_log"
 	"log"
 
 	"buf.build/go/protovalidate"

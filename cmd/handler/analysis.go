@@ -2,8 +2,8 @@ package handler
 
 import (
 	"context"
-	"imapsync-user/internal/service"
-	"imapsync-user/pkg/pb/analysis"
+	"imapsync-grpc/internal/service"
+	"imapsync-grpc/pkg/pb/analysis"
 	"log"
 
 	"buf.build/go/protovalidate"

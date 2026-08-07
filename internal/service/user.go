@@ -2,11 +2,11 @@ package service
 
 import (
 	"context"
-	"imapsync-user/internal/model"
-	"imapsync-user/internal/repository"
-	"imapsync-user/internal/util"
-	"imapsync-user/logger"
-	"imapsync-user/pkg/pb/user"
+	"imapsync-grpc/internal/model"
+	"imapsync-grpc/internal/repository"
+	"imapsync-grpc/internal/util"
+	"imapsync-grpc/logger"
+	"imapsync-grpc/pkg/pb/user"
 
 	"gorm.io/gorm"
 )

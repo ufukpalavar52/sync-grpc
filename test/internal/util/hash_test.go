@@ -1,7 +1,7 @@
 package util_test
 
 import (
-	"imapsync-user/internal/util"
+	"imapsync-grpc/internal/util"
 	"testing"
 )
 

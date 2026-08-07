@@ -2,8 +2,8 @@ package logger
 
 import (
 	"fmt"
-	"imapsync-user/config"
-	"imapsync-user/internal/util"
+	"imapsync-grpc/config"
+	"imapsync-grpc/internal/util"
 	"os"
 	"path/filepath"
 	"runtime"

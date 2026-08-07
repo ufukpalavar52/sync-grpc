@@ -1,10 +1,10 @@
 package service
 
 import (
-	"imapsync-user/internal/model"
-	"imapsync-user/internal/repository"
-	"imapsync-user/internal/util"
-	"imapsync-user/pkg/pb/analysis"
+	"imapsync-grpc/internal/model"
+	"imapsync-grpc/internal/repository"
+	"imapsync-grpc/internal/util"
+	"imapsync-grpc/pkg/pb/analysis"
 
 	"gorm.io/gorm"
 )

@@ -1,8 +1,8 @@
 package repository_test
 
 import (
-	"imapsync-user/internal/model"
-	"imapsync-user/internal/repository"
+	"imapsync-grpc/internal/model"
+	"imapsync-grpc/internal/repository"
 	"strings"
 	"testing"
 

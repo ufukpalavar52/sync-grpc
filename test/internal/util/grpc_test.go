@@ -2,7 +2,7 @@ package util_test
 
 import (
 	"context"
-	"imapsync-user/internal/util"
+	"imapsync-grpc/internal/util"
 	"testing"
 
 	"google.golang.org/grpc/metadata"

@@ -1,5 +1,5 @@
 package global
 
-import "imapsync-user/internal/model"
+import "imapsync-grpc/internal/model"
 
 var EncKey *model.EncryptionKeyEntity

@@ -1,4 +1,4 @@
-module imapsync-user
+module imapsync-grpc
 
 go 1.25.0
 

@@ -2,12 +2,12 @@ package handler
 
 import (
 	"context"
-	"imapsync-user/config"
-	"imapsync-user/internal/global"
-	"imapsync-user/internal/service"
-	"imapsync-user/internal/util"
-	"imapsync-user/logger"
-	"imapsync-user/pkg/pb/encrypt"
+	"imapsync-grpc/config"
+	"imapsync-grpc/internal/global"
+	"imapsync-grpc/internal/service"
+	"imapsync-grpc/internal/util"
+	"imapsync-grpc/logger"
+	"imapsync-grpc/pkg/pb/encrypt"
 	"log"
 
 	"buf.build/go/protovalidate"

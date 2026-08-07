@@ -1,7 +1,7 @@
 package model
 
 import (
-	"imapsync-user/internal/util"
+	"imapsync-grpc/internal/util"
 	"time"
 )
 

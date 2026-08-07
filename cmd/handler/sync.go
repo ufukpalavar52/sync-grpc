@@ -2,11 +2,11 @@ package handler
 
 import (
 	"context"
-	"imapsync-user/internal/model"
-	"imapsync-user/internal/service"
-	"imapsync-user/internal/util"
-	"imapsync-user/logger"
-	"imapsync-user/pkg/pb/sync"
+	"imapsync-grpc/internal/model"
+	"imapsync-grpc/internal/service"
+	"imapsync-grpc/internal/util"
+	"imapsync-grpc/logger"
+	"imapsync-grpc/pkg/pb/sync"
 	"log"
 	"time"
 

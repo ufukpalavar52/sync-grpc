@@ -1,6 +1,6 @@
 package model
 
-import "imapsync-user/pkg/pb/sync"
+import "imapsync-grpc/pkg/pb/sync"
 
 type SearchSync struct {
 	UserId        int64  `name:"userId"`
