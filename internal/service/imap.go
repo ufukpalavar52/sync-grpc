@@ -66,12 +66,12 @@ func (s *ImapService) CreateSync(req *sync.ImapSyncRequest) (*model.ImapSyncEnti
 }
 
 func (s *ImapService) CreateBulk(req *sync.BulkCreateSyncRequest) ([]*model.ImapSyncEntity, []*sync.ErrorResponse) {
-	var errors []*sync.ErrorResponse
+	var errs []*sync.ErrorResponse
 	var syncResponses []*model.ImapSyncEntity
 	for _, r := range req.Syncs {
 		res, err := s.CreateSync(r)
 		if err != nil {
-			errors = append(errors, &sync.ErrorResponse{
+			errs = append(errs, &sync.ErrorResponse{
 				TransactionId: r.TransactionId,
 				Message:       err.Error(),
 			})
@@ -80,7 +80,7 @@ func (s *ImapService) CreateBulk(req *sync.BulkCreateSyncRequest) ([]*model.Imap
 		syncResponses = append(syncResponses, res)
 	}
 
-	return syncResponses, errors
+	return syncResponses, errs
 }
 
 func (s *ImapService) GetSync(req *sync.GetSyncRequest) (*model.ImapSyncEntity, error) {
